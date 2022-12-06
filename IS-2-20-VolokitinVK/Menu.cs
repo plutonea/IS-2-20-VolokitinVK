@@ -16,5 +16,11 @@ namespace IS_2_20_VolokitinVK
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 dlg = new Form2();
+            dlg.Show(this);
+        }
     }
 }
